@@ -18,8 +18,6 @@ CLASS boxparty_HatMenu : boxparty_ZF_GenericMenu
 	cvar hatpreview;
 	string hatimage;
 	vector2 hatSize;
-	
-	string playerSprite;
 
 	string hatText;
 	string pageText;
@@ -179,7 +177,7 @@ CLASS boxparty_HatMenu : boxparty_ZF_GenericMenu
 		
 		hatTexture = hatTexture.CreateTexturePixels(hatimage, (4, 6), (12, 18), true, true);
 		hatSize = (16, 24);
-		ChosenHat = boxparty_ZF_BoxImage.Create((274, 8), hatSize, hatTexture, (1.0, 1.0));
+		ChosenHat = boxparty_ZF_BoxImage.Create((274, 36), hatSize, hatTexture, (1.0, 1.0));
 		ChosenHat.Pack (mainFrame);
 	}
 
@@ -773,21 +771,6 @@ CLASS boxparty_HatMenu : boxparty_ZF_GenericMenu
 		let signSize = (160, 40);
 		let signImage = boxparty_ZF_BoxImage.Create((8, 8), signSize, signTexture, (1.0, 1.0));
 		signImage.Pack (mainFrame);
-		
-		switch (random[boxhud](0, 5))
-		{
-			case 0: playerSprite = "sprites/Characters/PlayerBox/PBOXA0.lmp"; break;
-			case 1: playerSprite = "sprites/Characters/PlayerBox/CBOXA0.lmp"; break;
-			case 2: playerSprite = "sprites/Characters/PlayerBox/TBOXA0.lmp"; break;
-			case 3: playerSprite = "sprites/Characters/PlayerBox/PBOXB0.lmp"; break;
-			case 4: playerSprite = "sprites/Characters/PlayerBox/CBOXB0.lmp"; break;
-			case 5: playerSprite = "sprites/Characters/PlayerBox/TBOXB0.lmp"; break;
-		}
-		
-		let playerTexture = boxparty_ZF_BoxTextures.CreateTexturePixels(playerSprite, (0, 0), (32, 64), true, true);
-		let playerSize = (32, 64);
-		let playerImage = boxparty_ZF_BoxImage.Create((266, 30), playerSize, playerTexture, (1.0, 1.0));
-		playerImage.Pack (mainFrame);
 		
 		for (int countey = 0; countey < 16; countey++) {createHatButton(countey);}
 
