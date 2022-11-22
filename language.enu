@@ -1,5 +1,6 @@
 [enu default]
 
+NEWHAT = "NEW HAT UNLOCKED:";
 HAT_MISSING = "there is no hat in this slot yet.";
 
 //Hat Menu

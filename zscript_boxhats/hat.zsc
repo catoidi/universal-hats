@@ -40,7 +40,8 @@ CLASS BoxHat : Actor abstract
 			); 
 			SetOrigin(sPos, true);
 			//Angle = master.Angle;
-			Scale = master.Scale;
+			Scale.X = master.Scale.X;
+			Scale.Y = master.Scale.Y / 1.2;
 		}
 		else {Destroy();}
 

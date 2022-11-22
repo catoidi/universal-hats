@@ -20,27 +20,26 @@
 >>
 >>Page 1:
 Hat = HAT_SELECT_01, HAT_LOCKED_01, box_hat_unlock_01, 00HMA1.png, HATBUTTONA.png, HATLOCK.png;
-Hat = HAT_SELECT_08, HAT_LOCKED_08, box_hat_unlock_08, 00HMA8.png, HATBUTTONH.png, HATLOCK.png;
-Hat = HAT_SELECT_09, HAT_LOCKED_09, box_hat_unlock_09, 00HMA9.png, HATBUTTONI.png, HATLOCK.png;
-Hat = HAT_SELECT_02, HAT_LOCKED_02, box_hat_unlock_02, 00HMA2.png, HATBUTTONB.png, HATLOCK.png;
-Hat = HAT_SELECT_03, HAT_LOCKED_03, box_hat_unlock_03, 00HMA3.png, HATBUTTONC.png, HATLOCK.png;
-Hat = HAT_SELECT_04, HAT_LOCKED_04, box_hat_unlock_04, 00HMA4.png, HATBUTTOND.png, HATLOCK.png;
-Hat = HAT_SELECT_06, HAT_LOCKED_06, box_hat_unlock_06, 00HMA6.png, HATBUTTONF.png, HATLOCK.png;
-Hat = HAT_SELECT_05, HAT_LOCKED_05, box_hat_unlock_05, 00HMA5.png, HATBUTTONE.png, HATLOCK.png;
-Hat = HAT_SELECT_07, HAT_LOCKED_07, box_hat_unlock_07, 00HMA7.png, HATBUTTONG.png, HATLOCK.png;
-Hat = HAT_SELECT_10, HAT_LOCKED_10, box_hat_unlock_10, 00HMAA.png, HATBUTTONJ.png, HATLOCK.png;
-Hat = HAT_SELECT_11, HAT_LOCKED_11, box_hat_unlock_11, 00HMAB.png, HATBUTTONK.png, HATLOCK.png;
-Hat = HAT_SELECT_12, HAT_LOCKED_12, box_hat_unlock_12, 00HMAC.png, HATBUTTONL.png, HATLOCK.png;
-Hat = HAT_SELECT_13, HAT_LOCKED_13, box_hat_unlock_13, 00HMAD.png, HATBUTTONM.png, HATLOCK.png;
-Hat = HAT_SELECT_14, HAT_LOCKED_14, box_hat_unlock_14, 00HMAE.png, HATBUTTONN.png, HATLOCK.png;
-Hat = HAT_SELECT_15, HAT_LOCKED_15, box_hat_unlock_15, 00HMAF.png, HATBUTTONO.png, HATLOCKB.png;
->>Page 2:
 Hat = HAT_SELECT_16, HAT_LOCKED_16, box_hat_unlock_16, 00HMB1.png, HATBUTTON2A.png, HATLOCK2.png;
 >>rest of the hats are in full version :)
 >>Yes, I know these hats are out of order. I messed up during the process of coding the hats and I'm just gonna leave it like this.
 >>Secret Hats:
 >>Hidden by default. These hats only appear in the hat menu upon unlocking them.
->>these are found in levels:
+>>these are found in box party levels:
+Secret = HAT_SELECT_08, box_hat_unlock_08, 00HMA8.png, HATBUTTONH.png;
+Secret = HAT_SELECT_09, box_hat_unlock_09, 00HMA9.png, HATBUTTONI.png;
+Secret = HAT_SELECT_02, box_hat_unlock_02, 00HMA2.png, HATBUTTONB.png;
+Secret = HAT_SELECT_03, box_hat_unlock_03, 00HMA3.png, HATBUTTONC.png;
+Secret = HAT_SELECT_04, box_hat_unlock_04, 00HMA4.png, HATBUTTOND.png;
+Secret = HAT_SELECT_06, box_hat_unlock_06, 00HMA6.png, HATBUTTONF.png;
+Secret = HAT_SELECT_05, box_hat_unlock_05, 00HMA5.png, HATBUTTONE.png;
+Secret = HAT_SELECT_07, box_hat_unlock_07, 00HMA7.png, HATBUTTONG.png;
+Secret = HAT_SELECT_10, box_hat_unlock_10, 00HMAA.png, HATBUTTONJ.png;
+Secret = HAT_SELECT_11, box_hat_unlock_11, 00HMAB.png, HATBUTTONK.png;
+Secret = HAT_SELECT_12, box_hat_unlock_12, 00HMAC.png, HATBUTTONL.png;
+Secret = HAT_SELECT_13, box_hat_unlock_13, 00HMAD.png, HATBUTTONM.png;
+Secret = HAT_SELECT_14, box_hat_unlock_14, 00HMAE.png, HATBUTTONN.png;
+Secret = HAT_SELECT_15, box_hat_unlock_15, 00HMAF.png, HATBUTTONO.png;
 Secret = HAT_SECRET_14, box_hat_secret_14, 00HME4.png, HATSECRET14.png;
 Secret = HAT_SECRET_15, box_hat_secret_15, 00HME5.png, HATSECRET15.png, 34x38, 0.5;
 Secret = HAT_SECRET_16, box_hat_secret_16, 00HME6.png, HATSECRET16.png;

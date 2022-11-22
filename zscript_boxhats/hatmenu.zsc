@@ -536,7 +536,7 @@ CLASS boxparty_HatMenu : boxparty_ZF_GenericMenu
 	{
 		//use when doing something in the hat menu that would unlock a new hat on the fly.
 		unlockmessage = unlocked;
-		console.printf("\cd%s %s", stringtable.localize("$BOX_TITLE"), stringtable.localize(unlocked));
+		console.printf("\cd%s %s", stringtable.localize("$NEWHAT"), stringtable.localize(unlocked));
 	}
 	
 	virtual void checkNameTimeHats (void)
@@ -707,7 +707,7 @@ CLASS boxparty_HatMenu : boxparty_ZF_GenericMenu
 		
 		if (unlockmessage != "sorrynothing")
 		{
-			aLabel.settext(string.Format("%s %s", Stringtable.Localize("$BOX_TITLE"), Stringtable.Localize(unlockmessage)));
+			aLabel.settext(string.Format("%s %s", Stringtable.Localize("$NEWHAT"), Stringtable.Localize(unlockmessage)));
 			aLabel.settextColor(Font.CR_GREEN);
 		}
 		
@@ -761,7 +761,7 @@ CLASS boxparty_HatMenu : boxparty_ZF_GenericMenu
 		{
 			if (getlucky.GetBool() == false) 
 			{
-				aLabel.settext(string.Format("%s %s", Stringtable.Localize("$BOX_TITLE"), Stringtable.Localize("$HAT_UNLOCK_08")));
+				aLabel.settext(string.Format("%s %s", Stringtable.Localize("$NEWHAT"), Stringtable.Localize("$HAT_UNLOCK_08")));
 				aLabel.settextColor(Font.CR_GREEN);
 			}
 			getlucky.SetBool(true);
