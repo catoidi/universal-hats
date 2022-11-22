@@ -65,7 +65,7 @@ CLASS BoxHatPlayer : BoxHat
 	static const string alphabet[] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "[", "]"}; //all characters you can use sprite frames for, excluding \.
 	static const string rotations[] = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "G"}; //all characters you can use for sprite rotations.
 	
-	action void CheckInvalidHat (void) //switch current hat CVAR to default if current hat selected is invalid.
+	void CheckInvalidHat (void) //switch current hat CVAR to default if current hat selected is invalid.
 	{
 		if (master)
 		{
@@ -116,6 +116,7 @@ CLASS BoxHatPlayer : BoxHat
 		
 			BOXHAT_size = BOXHAT_sprite.Size();
 			string spawnstring = spawnhat.GetString();
+			
 			string currentstring;
 		
 			for (int i = 0; i < BOXHAT_size; i++)
@@ -128,6 +129,10 @@ CLASS BoxHatPlayer : BoxHat
 			{
 				spawnhat.SetString("00HMA1");
 			}
+		}
+		else 
+		{
+			Destroy();
 		}
 	}
 	
@@ -192,6 +197,12 @@ CLASS BoxHatPlayer : BoxHat
 			invoker.HatNumber = "0";
 		}
 	}
+	
+	override void PostBeginPlay(void)
+	{
+		Super.PostBeginPlay();
+		CheckInvalidHat();
+	}
 
 	override void Tick(void)
 	{
@@ -211,11 +222,11 @@ CLASS BoxHatPlayer : BoxHat
 	States
 	{
 		Spawn:
-			TNT1 A 5 CheckInvalidHat();
+			TNT1 A 5;
 			Goto Looper;
 		Looper:
 			#### # 0 UpdateHatSprite();
-			CACO A 10 {sprite = GetSpriteIndex(spritename); frame = HatNumber;}
+			TNT1 A 10 {sprite = GetSpriteIndex(spritename); frame = HatNumber;}
 			Loop;
 	}
 }
