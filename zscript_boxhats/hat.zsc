@@ -127,7 +127,7 @@ CLASS BoxHatPlayer : BoxHat
 		
 			if (validhat != true)
 			{
-				spawnhat.SetString("00HMA1");
+				spawnhat.SetString("TNT1A0");
 			}
 		}
 		else 
