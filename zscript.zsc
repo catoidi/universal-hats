@@ -1,0 +1,9 @@
+//zscript.zsc
+version "4.9"
+
+#include "zscript_boxhats/ZForms/Include.zsc"
+
+#include "zscript_boxhats/spawnhandler.zsc"
+#include "zscript_boxhats/menuhandler.zsc"
+#include "zscript_boxhats/hatmenu.zsc"
+#include "zscript_boxhats/hat.zsc"
