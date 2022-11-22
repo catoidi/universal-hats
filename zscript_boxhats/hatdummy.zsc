@@ -8,6 +8,32 @@ CLASS BoxHatDummy : Actor
 			//here i've gone and defined a whole buncha sprite names for futureproofing.
 			//i tried to pick a sprite name that has a very low chance of being used in another mod, since this is meant to be universal.
 			TNT1 A 1;
+			HATA A 0;
+			HATB A 0;
+			HATC A 0;
+			HATD A 0;
+			HATE A 0;
+			HATF A 0;
+			HATG A 0;
+			HATH A 0;
+			HATI A 0;
+			HATJ A 0;
+			HATK A 0;
+			HATL A 0;
+			HATM A 0;
+			HATM A 0;
+			HATO A 0;
+			HATP A 0;
+			HATQ A 0;
+			HATR A 0;
+			HATS A 0;
+			HATT A 0;
+			HATU A 0;
+			HATV A 0;
+			HATW A 0;
+			HATX A 0;
+			HATY A 0;
+			HATZ A 0;
 			00HM A 0;
 			01HM A 0;
 			02HM A 0;
