@@ -1,0 +1,11 @@
+AddOptionMenu "OptionsMenu"
+{
+	StaticText " "
+	Submenu "$BOX_HAT_MENU", "boxparty_hatmenu"
+}
+
+AddOptionMenu "OptionsMenuSimple"
+{
+	StaticText " "
+	Submenu "$BOX_HAT_MENU", "boxparty_hatmenu"
+}

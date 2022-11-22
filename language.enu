@@ -1,0 +1,62 @@
+[enu default]
+
+HAT_MISSING = "there is no hat in this slot yet.";
+
+//Hat Menu
+HAT_COLOR_ON = "Copy Player Colors: ON";
+HAT_COLOR_OFF = "Copy Player Colors: OFF";
+HAT_SELECT_00 = "Your hat has been removed.";
+HAT_SELECT_01 = "You have selected: Top Hat";
+HAT_SELECT_02 = "You have selected: Mini Box";
+HAT_SELECT_03 = "You have selected: Mini Circle";
+HAT_SELECT_04 = "You have selected: Mini Triangle";
+HAT_SELECT_05 = "You have selected: Pizza";
+HAT_SELECT_06 = "You have selected: Melon";
+HAT_SELECT_07 = "You have selected: Sunglasses";
+HAT_SELECT_08 = "You have selected: Cat";
+HAT_SELECT_09 = "You have selected: Birthday Hat";
+HAT_SELECT_10 = "You have selected: Box";
+HAT_SELECT_11 = "You have selected: Bow";
+HAT_SELECT_12 = "You have selected: Henry";
+HAT_SELECT_13 = "You have selected: Glowstick";
+HAT_SELECT_14 = "You have selected: Pepper";
+HAT_SELECT_15 = "You have selected: Crown";
+HAT_SELECT_16 = "You have selected: Top Hat :)";
+//hat 01 is unlocked by default.
+HAT_LOCKED_02 = "LOCKED: Complete Box Party Demo as Box.";
+HAT_LOCKED_03 = "LOCKED: Complete Box Party Demo as Circle.";
+HAT_LOCKED_04 = "LOCKED: Complete Box Party Demo as Triangle.";
+HAT_LOCKED_05 = "LOCKED: Reach Level 2's boss in under 75 seconds.";
+HAT_LOCKED_06 = "LOCKED: Reach Level 1's boss in under 50 seconds.";
+HAT_LOCKED_07 = "LOCKED: Reach Level 3's boss in under 80 seconds.";
+HAT_LOCKED_08 = "LOCKED: wear the super lucky hat to unlock this.";
+HAT_LOCKED_09 = "LOCKED: Your lottery numbers: 03, 11"; //play the game on November 3rd, or talk to a special NPC to unlock this.
+HAT_LOCKED_10 = "LOCKED: Complete every quest in Level 1.";
+HAT_LOCKED_11 = "LOCKED: Complete every quest in Level 2.";
+HAT_LOCKED_12 = "LOCKED: Complete every quest in Level 3.";
+HAT_LOCKED_13 = "LOCKED: Defeat 250 enemies with Glowstick.";
+HAT_LOCKED_14 = "LOCKED: Give Jalapeño a taste of their own medicine.";
+HAT_LOCKED_15 = "LOCKED: Unlock every other hat on Page 1.";
+HAT_LOCKED_16 = "u unlock this hat by clicking the slot so this message will never appear.";
+
+HAT_SECRET_01 = "You have selected: BOOM!";
+HAT_SECRET_02 = "You have selected: <3";
+HAT_SECRET_03 = "You have selected: Trans Flag";
+HAT_SECRET_04 = "You have selected: Bread Loaf";
+HAT_SECRET_05 = "You have selected: Taco";
+HAT_SECRET_06 = "You have selected: Pride Flag";
+HAT_SECRET_07 = "You have selected: Burger";
+HAT_SECRET_08 = "You have selected: Marshmallow";
+HAT_SECRET_09 = "You have selected: Ice Cream";
+HAT_SECRET_10 = "You have selected: Candy Corn";
+HAT_SECRET_13 = "You have selected: Birthday Cake";
+HAT_SECRET_12 = "You have selected: Xmas Hat";
+HAT_SECRET_14 = "You have selected: Beach Ball";
+HAT_SECRET_15 = "this hat seems a little broken...";
+HAT_SECRET_16 = "You have selected: Cracked Egg";
+HAT_SECRET_17 = "You have selected: Ghost Tree";
+HAT_SECRET_18 = "You have selected: Goldfish";
+HAT_SECRET_19 = "You have selected: Trash Bag";
+HAT_SECRET_20 = "You have selected: Self Deprecation";
+HAT_SECRET_21 = "You have selected: Space Helmet";
+HAT_SECRET_22 = "You have selected: :(";

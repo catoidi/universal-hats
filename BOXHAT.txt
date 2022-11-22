@@ -10,7 +10,7 @@
 >>1st parameter is the name of the line in "language.hat" or any other language file that appears when picking it in the menu. This is cosmetic only. (Example: BOX_HAT_SELECT_01)
 >>2nd parameter is the same as the 1st one, but for the message that appears when the hat is locked.
 >>3rd parameter is the CVAR that controls whether it is unlocked or not. Also make sure this CVAR is a BOOL.
->>4th parameter is the filename for the "SPRITE" associated with the hat. (Example: HATAA0.png)
+>>4th parameter is the filename for the "SPRITE" associated with the hat. (Example: 00HMA0.png)
 >>5th parameter is the filename for the "GRAPHIC" displayed in the menu if the hat is UNLOCKED. (Example: HATBUTTONA.png)
 >>6th parameter is the filename for the "GRAPHIC" displayed in the menu if the hat is LOCKED.  (Example: HATLOCK1.png)
 >>All above parameters are required for every hat listed.
@@ -19,51 +19,51 @@
 >>PRO TIP: You can cut down on usage of sprite names by assigning multiple hats to specific angles for a singular frame.
 >>
 >>Page 1:
-Hat = HAT_SELECT_01, HAT_LOCKED_01, box_hat_unlock_01, HATAA1.png, HATBUTTONA.png, HATLOCK.png;
-Hat = HAT_SELECT_08, HAT_LOCKED_08, box_hat_unlock_08, HATAA8.png, HATBUTTONH.png, HATLOCK.png;
-Hat = HAT_SELECT_09, HAT_LOCKED_09, box_hat_unlock_09, HATAA9.png, HATBUTTONI.png, HATLOCK.png;
-Hat = HAT_SELECT_02, HAT_LOCKED_02, box_hat_unlock_02, HATAA2.png, HATBUTTONB.png, HATLOCK.png;
-Hat = HAT_SELECT_03, HAT_LOCKED_03, box_hat_unlock_03, HATAA3.png, HATBUTTONC.png, HATLOCK.png;
-Hat = HAT_SELECT_04, HAT_LOCKED_04, box_hat_unlock_04, HATAA4.png, HATBUTTOND.png, HATLOCK.png;
-Hat = HAT_SELECT_06, HAT_LOCKED_06, box_hat_unlock_06, HATAA6.png, HATBUTTONF.png, HATLOCK.png;
-Hat = HAT_SELECT_05, HAT_LOCKED_05, box_hat_unlock_05, HATAA5.png, HATBUTTONE.png, HATLOCK.png;
-Hat = HAT_SELECT_07, HAT_LOCKED_07, box_hat_unlock_07, HATAA7.png, HATBUTTONG.png, HATLOCK.png;
-Hat = HAT_SELECT_10, HAT_LOCKED_10, box_hat_unlock_10, HATAAA.png, HATBUTTONJ.png, HATLOCK.png;
-Hat = HAT_SELECT_11, HAT_LOCKED_11, box_hat_unlock_11, HATAAB.png, HATBUTTONK.png, HATLOCK.png;
-Hat = HAT_SELECT_12, HAT_LOCKED_12, box_hat_unlock_12, HATAAC.png, HATBUTTONL.png, HATLOCK.png;
-Hat = HAT_SELECT_13, HAT_LOCKED_13, box_hat_unlock_13, HATAAD.png, HATBUTTONM.png, HATLOCK.png;
-Hat = HAT_SELECT_14, HAT_LOCKED_14, box_hat_unlock_14, HATAAE.png, HATBUTTONN.png, HATLOCK.png;
-Hat = HAT_SELECT_15, HAT_LOCKED_15, box_hat_unlock_15, HATAAF.png, HATBUTTONO.png, HATLOCKB.png;
+Hat = HAT_SELECT_01, HAT_LOCKED_01, box_hat_unlock_01, 00HMA1.png, HATBUTTONA.png, HATLOCK.png;
+Hat = HAT_SELECT_08, HAT_LOCKED_08, box_hat_unlock_08, 00HMA8.png, HATBUTTONH.png, HATLOCK.png;
+Hat = HAT_SELECT_09, HAT_LOCKED_09, box_hat_unlock_09, 00HMA9.png, HATBUTTONI.png, HATLOCK.png;
+Hat = HAT_SELECT_02, HAT_LOCKED_02, box_hat_unlock_02, 00HMA2.png, HATBUTTONB.png, HATLOCK.png;
+Hat = HAT_SELECT_03, HAT_LOCKED_03, box_hat_unlock_03, 00HMA3.png, HATBUTTONC.png, HATLOCK.png;
+Hat = HAT_SELECT_04, HAT_LOCKED_04, box_hat_unlock_04, 00HMA4.png, HATBUTTOND.png, HATLOCK.png;
+Hat = HAT_SELECT_06, HAT_LOCKED_06, box_hat_unlock_06, 00HMA6.png, HATBUTTONF.png, HATLOCK.png;
+Hat = HAT_SELECT_05, HAT_LOCKED_05, box_hat_unlock_05, 00HMA5.png, HATBUTTONE.png, HATLOCK.png;
+Hat = HAT_SELECT_07, HAT_LOCKED_07, box_hat_unlock_07, 00HMA7.png, HATBUTTONG.png, HATLOCK.png;
+Hat = HAT_SELECT_10, HAT_LOCKED_10, box_hat_unlock_10, 00HMAA.png, HATBUTTONJ.png, HATLOCK.png;
+Hat = HAT_SELECT_11, HAT_LOCKED_11, box_hat_unlock_11, 00HMAB.png, HATBUTTONK.png, HATLOCK.png;
+Hat = HAT_SELECT_12, HAT_LOCKED_12, box_hat_unlock_12, 00HMAC.png, HATBUTTONL.png, HATLOCK.png;
+Hat = HAT_SELECT_13, HAT_LOCKED_13, box_hat_unlock_13, 00HMAD.png, HATBUTTONM.png, HATLOCK.png;
+Hat = HAT_SELECT_14, HAT_LOCKED_14, box_hat_unlock_14, 00HMAE.png, HATBUTTONN.png, HATLOCK.png;
+Hat = HAT_SELECT_15, HAT_LOCKED_15, box_hat_unlock_15, 00HMAF.png, HATBUTTONO.png, HATLOCKB.png;
 >>Page 2:
-Hat = HAT_SELECT_16, HAT_LOCKED_16, box_hat_unlock_16, HATAB1.png, HATBUTTON2A.png, HATLOCK2.png;
+Hat = HAT_SELECT_16, HAT_LOCKED_16, box_hat_unlock_16, 00HMB1.png, HATBUTTON2A.png, HATLOCK2.png;
 >>rest of the hats are in full version :)
 >>Yes, I know these hats are out of order. I messed up during the process of coding the hats and I'm just gonna leave it like this.
 >>Secret Hats:
 >>Hidden by default. These hats only appear in the hat menu upon unlocking them.
 >>these are found in levels:
-Secret = HAT_SECRET_14, box_hat_secret_14, HATAE4.png, HATSECRET14.png;
-Secret = HAT_SECRET_15, box_hat_secret_15, HATAE5.png, HATSECRET15.png, 34x38, 0.5;
-Secret = HAT_SECRET_16, box_hat_secret_16, HATAE6.png, HATSECRET16.png;
-Secret = HAT_SECRET_17, box_hat_secret_17, HATAE7.png, HATSECRET17.png;
-Secret = HAT_SECRET_18, box_hat_secret_18, HATAF1.png, HATSECRET18.png;
-Secret = HAT_SECRET_19, box_hat_secret_19, HATAF2.png, HATSECRET19.png;
+Secret = HAT_SECRET_14, box_hat_secret_14, 00HME4.png, HATSECRET14.png;
+Secret = HAT_SECRET_15, box_hat_secret_15, 00HME5.png, HATSECRET15.png, 34x38, 0.5;
+Secret = HAT_SECRET_16, box_hat_secret_16, 00HME6.png, HATSECRET16.png;
+Secret = HAT_SECRET_17, box_hat_secret_17, 00HME7.png, HATSECRET17.png;
+Secret = HAT_SECRET_18, box_hat_secret_18, 00HMF1.png, HATSECRET18.png;
+Secret = HAT_SECRET_19, box_hat_secret_19, 00HMF2.png, HATSECRET19.png;
 >>these are monthly hats:
-Secret = HAT_SECRET_01, box_hat_secret_01, HATAE2.png, HATSECRET01.png;
-Secret = HAT_SECRET_02, box_hat_secret_02, HATAE8.png, HATSECRET02.png;
-Secret = HAT_SECRET_03, box_hat_secret_03, HATAE9.png, HATSECRET03.png;
-Secret = HAT_SECRET_04, box_hat_secret_04, HATAEA.png, HATSECRET04.png;
-Secret = HAT_SECRET_05, box_hat_secret_05, HATAEB.png, HATSECRET05.png;
-Secret = HAT_SECRET_06, box_hat_secret_06, HATAEC.png, HATSECRET06.png;
-Secret = HAT_SECRET_07, box_hat_secret_07, HATAED.png, HATSECRET07.png;
-Secret = HAT_SECRET_08, box_hat_secret_08, HATAEE.png, HATSECRET08.png;
-Secret = HAT_SECRET_09, box_hat_secret_09, HATAEF.png, HATSECRET09.png;
-Secret = HAT_SECRET_10, box_hat_secret_10, HATAEG.png, HATSECRET10.png;
-Secret = HAT_SECRET_13, box_hat_secret_13, HATAE3.png, HATSECRET13.png;
-Secret = HAT_SECRET_12, box_hat_secret_12, HATAE1.png, HATSECRET12.png;
+Secret = HAT_SECRET_01, box_hat_secret_01, 00HME2.png, HATSECRET01.png;
+Secret = HAT_SECRET_02, box_hat_secret_02, 00HME8.png, HATSECRET02.png;
+Secret = HAT_SECRET_03, box_hat_secret_03, 00HME9.png, HATSECRET03.png;
+Secret = HAT_SECRET_04, box_hat_secret_04, 00HMEA.png, HATSECRET04.png;
+Secret = HAT_SECRET_05, box_hat_secret_05, 00HMEB.png, HATSECRET05.png;
+Secret = HAT_SECRET_06, box_hat_secret_06, 00HMEC.png, HATSECRET06.png;
+Secret = HAT_SECRET_07, box_hat_secret_07, 00HMED.png, HATSECRET07.png;
+Secret = HAT_SECRET_08, box_hat_secret_08, 00HMEE.png, HATSECRET08.png;
+Secret = HAT_SECRET_09, box_hat_secret_09, 00HMEF.png, HATSECRET09.png;
+Secret = HAT_SECRET_10, box_hat_secret_10, 00HMEG.png, HATSECRET10.png;
+Secret = HAT_SECRET_13, box_hat_secret_13, 00HME3.png, HATSECRET13.png;
+Secret = HAT_SECRET_12, box_hat_secret_12, 00HME1.png, HATSECRET12.png;
 >>these are player name hats:
-Secret = HAT_SECRET_20, box_hat_secret_20, HATAF3.png, HATSECRET20.png;
-Secret = HAT_SECRET_21, box_hat_secret_21, HATAF4.png, HATSECRET21.png;
-Secret = HAT_SECRET_22, box_hat_secret_22, HATAF5.png, HATSECRET22.png;
+Secret = HAT_SECRET_20, box_hat_secret_20, 00HMF3.png, HATSECRET20.png;
+Secret = HAT_SECRET_21, box_hat_secret_21, 00HMF4.png, HATSECRET21.png;
+Secret = HAT_SECRET_22, box_hat_secret_22, 00HMF5.png, HATSECRET22.png;
 >>Extra Hat CVARs:
 >>Simply a list of CVARs that should be reset if hats are reset to default values.
 CVAR = box_hat_lucky;

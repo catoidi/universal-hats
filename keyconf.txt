@@ -1,0 +1,5 @@
+Alias openhatmenu "OpenMenu boxparty_hatmenu"
+Alias box_hat_reset2default "netevent ResetHats"
+
+AddKeySection "Universal Hats" "universalhats"
+AddMenuKey    "Open Hat Menu" "openhatmenu"
